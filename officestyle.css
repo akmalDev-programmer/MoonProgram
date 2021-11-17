@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    scroll-snap-align: start;
+}
+.container {
+    background-color: aqua;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll ;
+    height: 100vh;
+}
+.one{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+.two{
+    width: 100%;
+    height: 100vh;
+    background-color: #0313f4;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+.third{
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+.four{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+.five{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+.six{
+    width: 100%;
+    height: 100vh;
+    background-color: chartreuse;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+.seven{
+    width: 100%;
+    height: 100vh;
+    background-color: palevioletred;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.one .row {
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    position: bottom;
+}
+.one a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: 1s linear infinite;
+    animation-delay: .75s;
+}
+.one a span {
+    position: absolute;
+    display: block;
+}
+@keyframes a {
+    0% {bottom: -100%;}
+    50%,100% {bottom: 100%;}
+}
+.one a:hover { /*neon light*/
+    background: #03e9f4; color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #0313f4,
+     0 0 50px #03e9f4,
+      0 0 100px #0703f4;
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.two .secondrow {
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    position: bottom;
+}
+.two a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: 1s linear infinite;
+    animation-delay: .75s;
+}
+.two a span {
+    position: absolute;
+    display: block;
+}
+@keyframes a {
+    0% {bottom: -100%;}
+    50%,100% {bottom: 100%;}
+}
+.two a:hover { /*neon light*/
+    background: #03e9f4; color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #0313f4,
+     0 0 50px #03e9f4,
+      0 0 100px #0703f4;
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.third .thirdrow {
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    position: bottom;
+}
+.third a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: 1s linear infinite;
+    animation-delay: .75s;
+}
+.third a span {
+    position: absolute;
+    display: block;
+}
+@keyframes a {
+    0% {bottom: -100%;}
+    50%,100% {bottom: 100%;}
+}
+.third a:hover { /*neon light*/
+    background: #03e9f4; color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #0313f4,
+     0 0 50px #03e9f4,
+      0 0 100px #0703f4;
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.five .fourrow {
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    position: bottom;
+}
+.five a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: 1s linear infinite;
+    animation-delay: .75s;
+}
+.five a span {
+    position: absolute;
+    display: block;
+}
+@keyframes a {
+    0% {bottom: -100%;}
+    50%,100% {bottom: 100%;}
+}
+.five a:hover { /*neon light*/
+    background: #03e9f4; color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #0313f4,
+     0 0 50px #03e9f4,
+      0 0 100px #0703f4;
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.seven .fiverow {
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    position: bottom;
+}
+.seven a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: 1s linear infinite;
+    animation-delay: .75s;
+}
+.seven a span {
+    position: absolute;
+    display: block;
+}
+@keyframes a {
+    0% {bottom: -100%;}
+    50%,100% {bottom: 100%;}
+}
+.seven a:hover { /*neon light*/
+    background: #03e9f4; color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #0313f4,
+     0 0 50px #03e9f4,
+      0 0 100px #0703f4;
+}
